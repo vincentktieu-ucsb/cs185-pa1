@@ -97,7 +97,7 @@ img {
 
 @media (max-width: 1200px) {
   img {
-    height: 200px;
+    height: 300px;
   }
   .image-section {
     flex-direction: column;
