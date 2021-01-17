@@ -21,7 +21,7 @@
         <li><a href="index.html">Text</a></li>
         <li><a href="images.html">Images</a></li>
         <li><a href="videos.html">Videos</a></li>
-        <li><a href="tables.html">Table</a></li>
+        <li><a href="table.html">Table</a></li>
       </ul>
     </nav>
   </header>
@@ -29,23 +29,22 @@
   <div class="container">
     <h1>Text.</h1>
     <br/>
-    <p>
-      Howdy! My name is Vincent Tieu and this is my PA1 for CS185. 
-      I am excited for this class and am looking forward to building
-      something awesome.
-    </p>
-    <br/>
-    <p>
-      I'm a 3rd year CS student currently living at home in Los Angeles.
-      It has a been a while since I last coded some frontend code not in React,
-      so it'll feel a little bit weird not relying on the Material-UI library
-      that I'm so used to.
-    </p>
-    <br/>
-    <p>
-      Hopefully when I'm done, I also figure out how to host the site on a 
-      github site. This PA will hopefully be a lot of fun!
-    </p>
+    <form>
+      <label for="fname">First Name: </label><br/>
+      <input type="text" id="fname" name="fname"><br/>
+      <label for="fname">Last Name: </label><br/>
+      <input type="text" id="fname" name="fname"><br/>
+      <br/>
+      <label for="fmovie">Gender: </label><br/>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label><br/>
+      <br/>
+      <button type="submit" value="Submit">Done</button>
+    </form>
   </div>
 </body>
 </html>

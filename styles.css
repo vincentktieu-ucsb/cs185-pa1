@@ -70,7 +70,13 @@ header {
   padding: 0px 10%;
 }
 
-/* button {
+input[type="text"], textarea {
+  background-color : white; 
+  color: black;
+  border-radius: 10px;
+}
+
+button {
   padding: 9px 25px;
   background-color: rgba(0,136,169,1);
   border: none;
@@ -81,7 +87,7 @@ header {
 
 button:hover {
   background-color: rgba(0,136,169,0.8);
-} */
+}
 
 img {
   height: 300px;
@@ -92,6 +98,7 @@ img {
 
 .image-section {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -113,6 +120,11 @@ td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+}
+
+td a {
+  color: #0088a9;
+  text-decoration: underline;
 }
 
 tr:nth-child(even) {
